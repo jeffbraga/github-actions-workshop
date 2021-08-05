@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - uses: olxbr/tag-or-commit-action@v0
+      - uses: olxbr/tag-or-commit-action@feat-add-slack-notifications
         id: release
         
       - run: echo ${{ steps.release.outputs.version }}
