@@ -2,8 +2,8 @@ name: GitHub Actions Demo
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    #runs-on: [self-hosted,jeffo,local]
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted,olx,prepod]
+    #runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
