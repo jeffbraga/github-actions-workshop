@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: [self-hosted,olx,prepod]
+    runs-on: [self-hosted,olx,preprod]
     #runs-on: ubuntu-latest
     steps:
       - name: Checkout
