@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-actions-workshop
+  annotations:
+    github.com/project-slug: jeffbraga/github-actions-workshop
+spec:
+  type: other
+  lifecycle: unknown
+  owner: jeffo
